@@ -4,11 +4,7 @@ We seek to quantify the complexity of a sequence of DNA or RNA. To do this we us
 
 
 Shannon entropy $H(x)$ is given by: 
-
-$n$\
-$-\sum_{k=1}^n P(x_i) log P(x_i) = H(x)$  \
-&ensp;$i=1$
-
+$$-\sum_{i=1}^n P(x_i) log P(x_i) = H(x)$$
 
 
 

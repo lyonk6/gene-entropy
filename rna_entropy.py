@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 def clean_ribozyme(raw):
     drop_chars = ['5','P','O','H','3','\'','-','\n']
     for x in drop_chars:
@@ -10,15 +9,16 @@ def clean_ribozyme(raw):
     return raw
 
 
-path = "data/lincoln_joyce/ribozyme.txt"
+def get_lincoln_joyce_data():
+    path = "data/lincoln_joyce/ribozyme.txt"
+    with open(path, 'r') as file:
+        return file.read()
 
 
-with open(path, 'r') as file:
-    raw_data = file.read()
-
-
-cleaned_data     = clean_ribozyme(raw_data)
+input_data       = get_lincoln_joyce_data()
+cleaned_data     = clean_ribozyme(input_data)
 nucleotide_list  = list(cleaned_data)
+
 
 plt.hist(list(nucleotide_list))
 plt.show()

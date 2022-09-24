@@ -12,7 +12,7 @@ $$number\: of\: bases = 3 $$
 $$ 3  \times 1/4 = 3 \: Bases $$
 
 ## Entropy
-If information tells use what a given outcome is, then entropy tells us about the outcomes we didn't observe. Entropy is a measure of uncertainty or randomness in a system. The Shannon entropy $H(x)$ of some information is given by: 
+If _information_ tells use what a given outcome is, then _entropy_ tells us about the outcomes we didn't observe. Entropy is a measure of uncertainty or randomness in a system. The Shannon entropy $H(x)$ of some information is given by: 
 $$-\sum_{i=1}^n P(x_i) log P(x_i) = H(x)$$
 
 So the Shannon entropy of a RNA molecule "agc" is:

@@ -45,6 +45,11 @@ for x in short_nucleotide_list:
 sum = 0 - sum
 print(sum)
 
+def calculate_entropy(message, character_probabilities):
+    sum = 0
+    for x in message:
+        sum += character_probabilities[x] * math.log(character_probabilities[x], 2)
+    return 0 - sum
 
 # for x in nucleotide_list:
 # a_count = data.count('a')

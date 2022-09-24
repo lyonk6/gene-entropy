@@ -31,5 +31,4 @@ Given that all genes are defined by a sequence of 4 distince molecules, what is 
 
 1. A gene starts with a single letter which can be any of {a, c, g, u}. 
 2. A letter be added on either the start of a string or to the end.
-3. A gene can be broken and separated between any two letters.
-4. Any subseqence of a gene can be similarly added to either the start of said gene or to the end.
+3. Any subseqence of a gene can be similarly added to either the start of said gene or to the end.

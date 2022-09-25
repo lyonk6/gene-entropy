@@ -9,7 +9,7 @@ $$ P(base) = 1/4 $$
 $$number\: of\: bases = 3 $$
 
 
-$$ 3  \times 1/4 = 3 \: Bases $$
+$$ 3  \times 1/4 = 3\:Bases $$
 
 ## Entropy
 If _information_ tells use what a given outcome is, then _entropy_ tells us about the outcomes we didn't observe. Entropy is a measure of uncertainty or randomness in a system. The Shannon entropy $H(x)$ of some information is given by: 

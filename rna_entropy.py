@@ -28,9 +28,7 @@ def calculate_entropy(message, probability_map):
 
 
 
-if __name__ == '__main__':
-    print("Start")
-
+if __name__ == '__main__':  
     input_data       = get_lincoln_joyce_data()
     cleaned_data     = clean_ribozyme(input_data)
     nucleotide_list  = list(cleaned_data)

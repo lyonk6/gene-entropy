@@ -1,0 +1,80 @@
+PMID- 35304447
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220405
+LR  - 20221021
+IS  - 2041-1723 (Electronic)
+IS  - 2041-1723 (Linking)
+VI  - 13
+IP  - 1
+DP  - 2022 Mar 18
+TI  - Evolutionary transition from a single RNA replicator to a multiple replicator 
+      network.
+PG  - 1460
+LID - 10.1038/s41467-022-29113-x [doi]
+LID - 1460
+AB  - In prebiotic evolution, self-replicating molecules are believed to have evolved 
+      into complex living systems by expanding their information and functions 
+      open-endedly. Theoretically, such evolutionary complexification could occur 
+      through successive appearance of novel replicators that interact with one another 
+      to form replication networks. Here we perform long-term evolution experiments of 
+      RNA that replicates using a self-encoded RNA replicase. The RNA diversifies into 
+      multiple coexisting host and parasite lineages, whose frequencies in the 
+      population initially fluctuate and gradually stabilize. The final population, 
+      comprising five RNA lineages, forms a replicator network with diverse 
+      interactions, including cooperation to help the replication of all other members. 
+      These results support the capability of molecular replicators to spontaneously 
+      develop complexity through Darwinian evolution, a critical step for the emergence 
+      of life.
+CI  - © 2022. The Author(s).
+FAU - Mizuuchi, Ryo
+AU  - Mizuuchi R
+AUID- ORCID: 0000-0001-6712-1040
+AD  - Komaba Institute for Science, The University of Tokyo, Meguro, Tokyo, 153-8902, 
+      Japan. mizuuchi@bio.c.u-tokyo.ac.jp.
+AD  - JST, PRESTO, Kawaguchi, Saitama, 332-0012, Japan. mizuuchi@bio.c.u-tokyo.ac.jp.
+FAU - Furubayashi, Taro
+AU  - Furubayashi T
+AD  - Department of Applied Chemistry, Graduate School of Engineering, The University 
+      of Tokyo, Bunkyo, Tokyo, 113-8656, Japan.
+FAU - Ichihashi, Norikazu
+AU  - Ichihashi N
+AUID- ORCID: 0000-0001-7087-2718
+AD  - Komaba Institute for Science, The University of Tokyo, Meguro, Tokyo, 153-8902, 
+      Japan. ichihashi@bio.c.u-tokyo.ac.jp.
+AD  - Department of Life Science, Graduate School of Arts and Science, The University 
+      of Tokyo, Meguro, Tokyo, 153-8902, Japan. ichihashi@bio.c.u-tokyo.ac.jp.
+AD  - Universal Biology Institute, The University of Tokyo, Meguro, Tokyo, 153-8902, 
+      Japan. ichihashi@bio.c.u-tokyo.ac.jp.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20220318
+TA  - Nat Commun
+JT  - Nature communications
+JID - 101528555
+RN  - 63231-63-0 (RNA)
+RN  - EC 2.7.7.48 (RNA-Dependent RNA Polymerase)
+SB  - IM
+CIN - Curr Biol. 2022 Jun 20;32(12):R580-R583. PMID: 35728532
+MH  - Animals
+MH  - Evolution, Molecular
+MH  - Origin of Life
+MH  - *Parasites/genetics
+MH  - *RNA/genetics
+MH  - RNA-Dependent RNA Polymerase/genetics
+PMC - PMC8933500
+COIS- The authors declare no competing interests.
+EDAT- 2022/03/20 06:00
+MHDA- 2022/04/06 06:00
+CRDT- 2022/03/19 05:30
+PHST- 2021/08/18 00:00 [received]
+PHST- 2022/02/22 00:00 [accepted]
+PHST- 2022/03/19 05:30 [entrez]
+PHST- 2022/03/20 06:00 [pubmed]
+PHST- 2022/04/06 06:00 [medline]
+AID - 10.1038/s41467-022-29113-x [pii]
+AID - 29113 [pii]
+AID - 10.1038/s41467-022-29113-x [doi]
+PST - epublish
+SO  - Nat Commun. 2022 Mar 18;13(1):1460. doi: 10.1038/s41467-022-29113-x.

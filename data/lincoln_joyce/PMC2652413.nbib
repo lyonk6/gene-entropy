@@ -1,0 +1,70 @@
+PMID- 19131595
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20090309
+LR  - 20211020
+IS  - 1095-9203 (Electronic)
+IS  - 0036-8075 (Print)
+IS  - 0036-8075 (Linking)
+VI  - 323
+IP  - 5918
+DP  - 2009 Feb 27
+TI  - Self-sustained replication of an RNA enzyme.
+PG  - 1229-32
+LID - 10.1126/science.1167856 [doi]
+AB  - An RNA enzyme that catalyzes the RNA-templated joining of RNA was converted to a 
+      format whereby two enzymes catalyze each other's synthesis from a total of four 
+      oligonucleotide substrates. These cross-replicating RNA enzymes undergo 
+      self-sustained exponential amplification in the absence of proteins or other 
+      biological materials. Amplification occurs with a doubling time of about 1 hour 
+      and can be continued indefinitely. Populations of various cross-replicating 
+      enzymes were constructed and allowed to compete for a common pool of substrates, 
+      during which recombinant replicators arose and grew to dominate the population. 
+      These replicating RNA enzymes can serve as an experimental model of a genetic 
+      system. Many such model systems could be constructed, allowing different 
+      selective outcomes to be related to the underlying properties of the genetic 
+      system.
+FAU - Lincoln, Tracey A
+AU  - Lincoln TA
+AD  - Department of Chemistry and Skaggs Institute for Chemical Biology, Scripps 
+      Research Institute, La Jolla, CA 92037, USA.
+FAU - Joyce, Gerald F
+AU  - Joyce GF
+LA  - eng
+GR  - R01 GM065130/GM/NIGMS NIH HHS/United States
+GR  - R01 GM065130-07/GM/NIGMS NIH HHS/United States
+GR  - R01GM065130/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20090108
+TA  - Science
+JT  - Science (New York, N.Y.)
+JID - 0404511
+RN  - 0 (Oligonucleotides)
+RN  - 0 (RNA, Catalytic)
+RN  - EC 6.5.1.- (Polynucleotide Ligases)
+RN  - EC 6.5.1.- (R3C ligase)
+SB  - IM
+MH  - Base Pairing
+MH  - Biocatalysis
+MH  - Directed Molecular Evolution
+MH  - Kinetics
+MH  - Nucleic Acid Conformation
+MH  - Oligonucleotides/*metabolism
+MH  - Polynucleotide Ligases/*chemistry/metabolism
+MH  - RNA, Catalytic/chemistry/*metabolism
+PMC - PMC2652413
+MID - NIHMS86142
+EDAT- 2009/01/10 09:00
+MHDA- 2009/03/10 09:00
+CRDT- 2009/01/10 09:00
+PHST- 2009/01/10 09:00 [entrez]
+PHST- 2009/01/10 09:00 [pubmed]
+PHST- 2009/03/10 09:00 [medline]
+AID - 1167856 [pii]
+AID - 10.1126/science.1167856 [doi]
+PST - ppublish
+SO  - Science. 2009 Feb 27;323(5918):1229-32. doi: 10.1126/science.1167856. Epub 2009 
+      Jan 8.

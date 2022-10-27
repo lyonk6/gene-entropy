@@ -5,7 +5,6 @@ import math
 def clean_ribozyme(raw):
     drop_chars = ['5','P','O','H','3','\'','-','\n']
     for x in drop_chars:
-        #print("Here is a x: ", x)
         raw = raw.replace(x, '')
     return raw
 
@@ -14,17 +13,23 @@ def get_lincoln_joyce_data():
     with open(path, 'r') as file:
         return file.read()
 
-# Calculate entropy: For each character in a message, look up it's
-# probability value, then plug in to the following function:
-#     prob * math.log(prob, base)
 def calculate_entropy(message, probability_map):
+    """
+    For each character in a message, look up its probability of
+    appearing, then plug it into the logarithmic function:
+        prob * math.log(prob, base)
+
+    Return the sum of character probabilities.
+    """
     sum = 0
     for x in message:
         if x in probability_map:
             sum += probability_map[x] * math.log(probability_map[x], 2)
         else:
             print("Error. Character not allowed: ", x)
+            return 0
     return 0 - sum
+
 
 
 

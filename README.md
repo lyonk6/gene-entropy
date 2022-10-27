@@ -33,7 +33,7 @@ $$H(x) = 1.5 \: bits$$
 
 ## Assembly Index
 
-Given that all genes are defined by a sequence of 4 distince molecules, what is the smallest number of operations to create a given gene with the following operations: 
+Given that all genes are defined by a sequence of 4 distinct molecules, what is the smallest number of operations to create a given gene with the following operations: 
 
 1. A gene starts with a single letter which can be any of {a, c, g, u}. 
 2. A letter be added on either the start of a string or to the end.

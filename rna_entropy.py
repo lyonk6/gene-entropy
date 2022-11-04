@@ -9,6 +9,7 @@ def calculate_shannon_information(message, probability_map):
     Return the sum.
     """
     sum = 0
+    message = message.upper()
     for x in message:
         if x in probability_map:
             sum += math.log(probability_map[x], 2)
@@ -26,6 +27,7 @@ def calculate_shannon_entropy(message, probability_map):
     Return the sum of character probabilities.
     """
     sum = 0
+    message = message.upper()
     for x in message:
         if x in probability_map:
             sum += probability_map[x] * math.log(probability_map[x], 2)

@@ -2,21 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-def clean_ribozyme(raw):
-    drop_chars = ['5','P','O','H','3','\'','-','\n']
-    for x in drop_chars:
-        raw = raw.replace(x, '')
-    return raw.upper()
-
-def get_lincoln_joyce_data():
-    """
-    Return a single rna ribozyme
-    """
-    path = "data/lincoln_joyce/ribozyme.txt"
-    with open(path, 'r') as file:
-        return file.read()
-
-
 def calculate_shannon_information(message, probability_map):
     """
     For each character in a message, look up its probability of
@@ -52,14 +37,7 @@ def calculate_shannon_entropy(message, probability_map):
     return 0 - sum
 
 
-if __name__ == '__main__':  
-    input_data       = get_lincoln_joyce_data()
-    cleaned_data     = clean_ribozyme(input_data)
-    nucleotide_list  = list(cleaned_data)
-
-    plt.hist(list(nucleotide_list))
-    plt.show()
-
+if __name__ == '__main__':
     naive_probabilities = {"a": 0.25, "g": 0.25, "c": 0.25, "u": 0.25}
     short_nucleotide_list = ['a','g','c']
 

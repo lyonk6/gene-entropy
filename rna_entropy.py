@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
 import math
 
 def calculate_shannon_information(message, probability_map):

@@ -28,9 +28,11 @@ def calculate_shannon_information(message, probability_map):
     sum = 0
     for x in message:
         if x in probability_map:
-            sum += probability_map[x]
-            sum -= math.log(probability_map[x], 2)
-    return sum
+            sum += math.log(probability_map[x], 2)
+        else:
+            print("Error. Character not allowed: ", x)
+            return -1
+    return 0 - sum
 
 def calculate_shannon_entropy(message, probability_map):
     """
@@ -46,7 +48,7 @@ def calculate_shannon_entropy(message, probability_map):
             sum += probability_map[x] * math.log(probability_map[x], 2)
         else:
             print("Error. Character not allowed: ", x)
-            return 0
+            return -1
     return 0 - sum
 
 
@@ -64,8 +66,3 @@ if __name__ == '__main__':
     entropy =  calculate_shannon_entropy(short_nucleotide_list, naive_probabilities)
     print("Entropy: ", entropy)
 
-# for x in nucleotide_list:
-# a_count = data.count('a')
-# g_count = data.count('g')
-# c_count = data.count('c')
-# u_count = data.count('u')

@@ -23,6 +23,12 @@ def get_mizuuchi_furubayashi_ichihashi_data():
     path = "data/mizuuchi_furubayashi_ichihashi/ribozymes.txt"
     return pandas.read_csv(path)
 
+def get_combined_data():
+    df = get_mizuuchi_furubayashi_ichihashi_data()
+    df.append({})
+
+    return
+
 def plot_nucleotide_distribution():
     """
     Pass a string of nucleotids and display the 

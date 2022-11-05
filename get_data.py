@@ -14,22 +14,22 @@ def get_lincoln_joyce_data():
     """
     path = "data/lincoln_joyce/ribozyme.txt"
     with open(path, 'r') as file:
-        return file.read()
+        return clean_ribozyme(file.read())
 
 def get_mizuuchi_furubayashi_ichihashi_data():
     """
     Return a dictionary of rna ribozymes
     """
-    path = "data/mizuuchi_furubayashi_ichihashi/ribozymes.txt"
+    path = "data/mizuuchi_furubayashi_ichihashi/ribozymes.csv"
     return pandas.read_csv(path)
 
 def get_combined_data():
     df = get_mizuuchi_furubayashi_ichihashi_data()
-    df.append({})
+    lincoln_joyce_data = {'Name': ['joyce-00'], 'Sequence': [get_lincoln_joyce_data()]}
+    lincoln_joyce_data = pandas.DataFrame(lincoln_joyce_data)
+    return pandas.concat([df, lincoln_joyce_data], ignore_index = True)
 
-    return
-
-def plot_nucleotide_distribution():
+def plot_nucleotide_distribution(nucleotide_list):
     """
     Pass a string of nucleotids and display the 
     count of each in a histogram.
@@ -39,9 +39,5 @@ def plot_nucleotide_distribution():
 
 
 if __name__ == '__main__':  
-    input_data       = get_lincoln_joyce_data()
-    cleaned_data     = clean_ribozyme(input_data)
-    nucleotide_list  = list(cleaned_data)
-
-    rna_df = get_mizuuchi_furubayashi_ichihashi_data()
-    print(rna_df)
+    data = get_combined_data()
+    print(data)

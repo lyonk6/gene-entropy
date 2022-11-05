@@ -15,11 +15,13 @@ def test_answer():
 
 def test_calculate_shannon_information():
     # Case 1: The RNA sequence is invalid
-    assert calculate_shannon_information(['a', 'b', 'c'], naive_probabilities) == -1    
+    assert calculate_shannon_information(['a', 'b', 'c'], naive_probabilities) == -1
 
     # The sequence is valid but the is all in lowercase. 
-    assert calculate_shannon_information(['a', 'g', 'c'], naive_probabilities) == -1     
+    assert calculate_shannon_information(['a', 'g', 'c'], naive_probabilities) == -1
 
 def test_calculate_shannon_entropy():
     # Case 1: The RNA sequence is invalid
     assert calculate_shannon_information(['a', 'b', 'c'], naive_probabilities) == -1
+
+    assert calculate_shannon_information(['a', 'b', 'c'], naive_probabilities) == 1.5

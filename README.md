@@ -8,7 +8,9 @@ An event that is guaranteed to happen gives no information while an event that o
 $$I(X)=-\sum_{i=1}^n log P(x_i) $$
 $$ P(base) = 1/4 \:,  \:number\: of\: bases = 3 $$
 
-$$ 3  \times -log{_4}(^1/_4) = 3\:Bases $$
+$$ 3  \times -log{_4}(^1/_4) = 3\:bases $$
+
+$$ 3  \times -log{_2}(^1/_4) = 6\:bits $$
 
 ## Entropy
 If _information_ tells us what a given outcome is, then _entropy_ tells us about the outcomes we didn't observe. The Shannon entropy $H(x)$ of some information is given by: 

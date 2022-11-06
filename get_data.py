@@ -29,15 +29,17 @@ def get_combined_data():
     lincoln_joyce_data = pandas.DataFrame(lincoln_joyce_data)
     return pandas.concat([df, lincoln_joyce_data], ignore_index = True)
 
-def plot_nucleotide_distribution(nucleotide_list):
+def plot_nucleotide_distribution(df):
     """
     Pass a string of nucleotids and display the 
     count of each in a histogram.
     """
-    plt.hist(list(nucleotide_list))
+    s = ''
+    for index, row in df.iterrows():
+        s += row['Sequence']
+    plt.hist(list(s))
     plt.show()
-
 
 if __name__ == '__main__':  
     data = get_combined_data()
-    print(data)
+    plot_nucleotide_distribution(data)

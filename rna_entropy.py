@@ -1,4 +1,7 @@
 import math
+import pandas as pd
+import numpy as np
+from get_data import get_combined_data
 
 def calculate_shannon_information(message, probability_map):
     """
@@ -37,8 +40,6 @@ def calculate_shannon_entropy(message, probability_map):
 
 if __name__ == '__main__':
     naive_probabilities = {"a": 0.25, "g": 0.25, "c": 0.25, "u": 0.25}
-    short_nucleotide_list = ['a','g','c']
 
-    entropy =  calculate_shannon_entropy(short_nucleotide_list, naive_probabilities)
-    print("Entropy: ", entropy)
-
+    myDF = get_combined_data()
+    print(myDF)

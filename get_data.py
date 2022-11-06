@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import pandas
 
 def clean_ribozyme(raw):
@@ -39,7 +38,3 @@ def plot_nucleotide_distribution(df):
         s += row['Sequence']
     plt.hist(list(s))
     plt.show()
-
-if __name__ == '__main__':  
-    data = get_combined_data()
-    plot_nucleotide_distribution(data)

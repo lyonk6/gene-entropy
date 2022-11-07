@@ -17,7 +17,7 @@ def get_lincoln_joyce_data():
 
 def get_mizuuchi_furubayashi_ichihashi_data():
     """
-    Return a dictionary of rna ribozymes
+    Return a dataframe of rna ribozymes
     """
     path = "data/mizuuchi_furubayashi_ichihashi/ribozymes.csv"
     return pandas.read_csv(path)

@@ -39,7 +39,17 @@ def calculate_shannon_entropy(message, probability_map):
 
 
 if __name__ == '__main__':
-    naive_probabilities = {"a": 0.25, "g": 0.25, "c": 0.25, "u": 0.25}
+    naive_probabilities = {"A": 0.25, "G": 0.25, "C": 0.25, "U": 0.25}
 
     myDF = get_combined_data()
+    information = []
+    entropy = []
+
+    # Name,Sequence
+    for i, row in myDF.iterrows():
+        print(row['Name'], row['Sequence'])
+        information.append(calculate_shannon_information(row['Sequence'], naive_probabilities))
+        entropy.append(calculate_shannon_entropy(row['Sequence'], naive_probabilities))
+    myDF['information'] = information
+    myDF['entropy'] = entropy
     print(myDF)

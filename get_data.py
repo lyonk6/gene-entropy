@@ -38,3 +38,7 @@ def plot_nucleotide_distribution(df):
         s += row['Sequence']
     plt.hist(list(s))
     plt.show()
+
+
+if __name__ == '__main__':
+    plot_nucleotide_distribution(get_mizuuchi_furubayashi_ichihashi_data())
